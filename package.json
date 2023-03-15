@@ -1,0 +1,9 @@
+{
+  "name": "webpack-mf-split-chunks-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
