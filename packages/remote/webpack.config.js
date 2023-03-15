@@ -7,11 +7,12 @@ module.exports = {
     publicPath: "http://localhost:8081/",
   },
 
-  // optimization: {
-  //   splitChunks: {
-  //     chunks: "all",
-  //   },
-  // },
+  // comment this out to fix the issue
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+    },
+  },
 
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
